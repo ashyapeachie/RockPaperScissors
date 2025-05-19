@@ -1,5 +1,5 @@
 """
-author: Ashya#
+author: Ashya
 filename: RockPaperScissorsGame.py
 objective: Create a game where the player can play against the computer by choosing rock, 
  paper or scissors, and the computer randomly selects a choice
