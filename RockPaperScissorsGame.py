@@ -5,15 +5,15 @@ objective: Create a game where the player can play against the computer by choos
  paper or scissors, and the computer randomly selects a choice
 """
 import random
+#randomizes the computer's actions
 
-#taking the user's input
-def user_input_choice(): 
-    #code inside the function
-    choice = input("Please enter your choice (rock, paper, scissors): ")
-    while choice not in []: 
-    #if the user choices something that's not a choice, program will give invalid
+""" taking user input and making computer choose """
+user_action = input("Please enter your choice: (rock, paper, scissors)")
+user_actions = ["rock", "paper", "scissors"]
+computer_actions = random.choice(user_actions)
+# computer randomly selects between the actions listed
 
-#randomized computer input
+print(f"\nYour move {user_action}, computer's move {computer_action}.\n") 
+#prints the actions of the user and computer
 
-#
-
+""" determining the winner """
