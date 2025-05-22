@@ -17,3 +17,8 @@ print(f"\nYour move {user_action}, computer's move {computer_action}.\n")
 #prints the actions of the user and computer
 
 """ determining the winner """
+if user_action == computer_action:
+    print("You both made the same move {user_action}. It's a tie!")
+elif user_action == "rock":
+    if computer+action == "scissors":
+#if elif else block
