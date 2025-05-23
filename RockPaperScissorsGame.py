@@ -4,15 +4,16 @@ filename: RockPaperScissorsGame.py
 objective: Create a game where the player can play against the computer by choosing rock, 
  paper or scissors, and the computer randomly selects a choice
 """
+# going to attempt code annotation storytelling as a study technique
 import random
 #randomizes the computer's actions, importing a random module
 
 """ taking user input and making computer choose """
 user_action = input("Please enter your choice: (rock, paper, scissors)")
 user_actions = ["rock", "paper", "scissors"]
-#
+#defined list of options 
 computer_action = random.choice(user_actions)
-# computer randomly selects between the actions listed
+#computer randomly selects between the actions listed
 
 print(f"\nYour move {user_action}, computer's move {computer_action}.\n") 
 #prints the actions of the user and computer
