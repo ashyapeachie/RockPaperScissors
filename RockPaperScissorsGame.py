@@ -15,7 +15,7 @@ user_actions = ["rock", "paper", "scissors"]
 computer_action = random.choice(user_actions)
 #computer randomly selects between the actions listed
 
-print(f"\nYour move {user_action}, computer's move {computer_action}.\n") 
+print(f"\nYour move {user_action}, Computer's move {computer_action}.\n") 
 #prints the actions of the user and computer
 
 """ determining the winner """
