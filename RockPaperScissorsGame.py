@@ -5,6 +5,7 @@ objective: Create a game where the player can play against the computer by choos
  paper or scissors, and the computer randomly selects a choice
 """
 #need to download a Python extension
+#revisiting soon :)
 
 # going to attempt code annotation storytelling as a study technique
 import random
@@ -20,7 +21,7 @@ computer_action = random.choice(user_actions)
 print(f"\nYour move {user_action}, Computer's move {computer_action}.\n") 
 #prints the actions of the user and computer to the user
 
-""" determining the winner """
+""" determining the winner w/ if elif else block """
 if user_action == computer_action:
     print("It's a tie!")
 elif user_action == "rock" and computer_action == "scissors":
@@ -31,4 +32,3 @@ elif user_action == "scissors" and computer_action == "paper":
     print("You win!")
 else: 
     print("Computer wins!")
-#if elif else block
